@@ -1,0 +1,9 @@
+<launch>
+
+  <include file="$(find double_general)/launch/double_core.launch">
+  </include>
+
+<include file="$(find double_general)/launch/double_realsense.launch">
+  </include>
+
+</launch>
