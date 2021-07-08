@@ -6,6 +6,7 @@ class Footer extends Component {
     render() {
         return (
             <Container className="text-center">
+                <p></p>
                 <p>ATR Lab &copy; 2021</p>
             </Container>
         );

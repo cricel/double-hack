@@ -58,8 +58,8 @@ class Map extends Component {
   view_map() {
     var viewer = new window.ROS2D.Viewer({
       divID: "nav_div",
-      width: 640,
-      height: 480,
+      width: 480,
+      height: 360,
     });
     var navClient = new window.NAV2D.OccupancyGridClientNav({
       ros: this.state.ros,
@@ -73,7 +73,7 @@ class Map extends Component {
   render() {
     return (
       <div>
-        <div id="nav_div">Viewer</div>
+        <div id="nav_div"></div>
       </div>
     );
   }

@@ -1,0 +1,10 @@
+.header img {
+  float: left;
+  width: 100px;
+}
+
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
