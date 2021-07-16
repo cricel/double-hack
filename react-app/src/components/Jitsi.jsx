@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { Jutsu } from "react-jutsu";
+import Config from "../scripts/config";
 
 const Jitsi = () => {
-  const [room, setRoom] = useState("atrtesttest123");
+  const [room, setRoom] = useState(Config.JITSI_ROOM_NAME);
   const [name, setName] = useState("dummy");
   const [call, setCall] = useState(false);
   const [password, setPassword] = useState("");
