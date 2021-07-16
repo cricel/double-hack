@@ -57,11 +57,7 @@ export default function ProfilePage(props) {
         }}
         {...rest}
       />
-      <Parallax
-        small
-        filter
-        image={require("assets/img/profile-bg.jpg").default}
-      />
+      <Parallax small filter image={require("assets/img/bg_5.jpeg").default} />
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div>
           {/* <div className={classes.container}> */}
@@ -82,11 +78,18 @@ export default function ProfilePage(props) {
                 <CardActionArea href="/operator-page">
                   <CardMedia
                     component="img"
-                    alt="Contemplative Reptile"
+                    alt="Bilocation Bot v1"
                     height="100%"
                     image={bot_v1_img}
-                    title="Contemplative Reptile"
+                    title="Bilocation Bot v1"
                   />
+                  <CardContent>
+                    <Typography gutterBottom variant="h5" component="h2" style={{ textAlign: "center" }}>
+                      CS Department 
+                      <br/>
+                      ATR Lab
+                    </Typography>
+                  </CardContent>
                 </CardActionArea>
                 <CardActions style={{ justifyContent: "center" }}>
                   <Button
@@ -105,11 +108,18 @@ export default function ProfilePage(props) {
                 <CardActionArea>
                   <CardMedia
                     component="img"
-                    alt="Contemplative Reptile"
+                    alt="Bilocation Bot v1"
                     height="100%"
                     image={bot_v1_img}
-                    title="Contemplative Reptile"
+                    title="Bilocation Bot v1"
                   />
+                  <CardContent>
+                    <Typography gutterBottom variant="h5" component="h2" style={{ textAlign: "center" }}>
+                      CS Department 
+                      <br/>
+                      3rd Floor
+                    </Typography>
+                  </CardContent>
                 </CardActionArea>
                 <CardActions style={{ justifyContent: "center" }}>
                   <Button
@@ -127,11 +137,18 @@ export default function ProfilePage(props) {
                 <CardActionArea>
                   <CardMedia
                     component="img"
-                    alt="Contemplative Reptile"
+                    alt="Bilocation Bot v1"
                     height="100%"
                     image={bot_v1_img}
-                    title="Contemplative Reptile"
+                    title="Bilocation Bot v1"
                   />
+                  <CardContent>
+                    <Typography gutterBottom variant="h5" component="h2" style={{ textAlign: "center" }}>
+                      DI Hub 
+                      <br/>
+                      Entry
+                    </Typography>
+                  </CardContent>
                 </CardActionArea>
                 <CardActions style={{ justifyContent: "center" }}>
                   <Button
@@ -149,11 +166,18 @@ export default function ProfilePage(props) {
                 <CardActionArea>
                   <CardMedia
                     component="img"
-                    alt="Contemplative Reptile"
+                    alt="Bilocation Bot v1"
                     height="100%"
                     image={bot_v1_img}
-                    title="Contemplative Reptile"
+                    title="Bilocation Bot v1"
                   />
+                  <CardContent>
+                    <Typography gutterBottom variant="h5" component="h2" style={{ textAlign: "center" }}>
+                      Student Center 
+                      <br/>
+                      Bot-1
+                    </Typography>
+                  </CardContent>
                 </CardActionArea>
                 <CardActions style={{ justifyContent: "center" }}>
                   <Button
@@ -171,11 +195,18 @@ export default function ProfilePage(props) {
                 <CardActionArea>
                   <CardMedia
                     component="img"
-                    alt="Contemplative Reptile"
+                    alt="Bilocation Bot v1"
                     height="100%"
                     image={bot_v1_img}
-                    title="Contemplative Reptile"
+                    title="Bilocation Bot v1"
                   />
+                  <CardContent>
+                    <Typography gutterBottom variant="h5" component="h2" style={{ textAlign: "center" }}>
+                      Kent Campus 
+                      <br/>
+                      Bot-1
+                    </Typography>
+                  </CardContent>
                 </CardActionArea>
                 <CardActions style={{ justifyContent: "center" }}>
                   <Button

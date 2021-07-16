@@ -53,9 +53,9 @@ export default function Components(props) {
           <GridContainer>
             <GridItem>
               <div className={classes.brand}>
-                <h1 className={classes.title}>ATR TelePresent Robot</h1>
+                <h1 className={classes.title}>Bilocation Bot</h1>
                 <h3 className={classes.subtitle}>
-                  a custom design, fully open API robot made in ATR
+                  Be anywhere your heart desires without limitation.
                 </h3>
               </div>
             </GridItem>

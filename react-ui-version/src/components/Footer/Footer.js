@@ -33,7 +33,7 @@ export default function Footer(props) {
           <List className={classes.list}>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="/"
+                href="#"
                 className={classes.block}
                 // target="_blank"
               >
@@ -42,7 +42,7 @@ export default function Footer(props) {
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="/"
+                href="#"
                 className={classes.block}
               >
                 About us
@@ -50,7 +50,7 @@ export default function Footer(props) {
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="/"
+                href="#"
                 className={classes.block}
               >
                 Blog
@@ -58,7 +58,7 @@ export default function Footer(props) {
             </ListItem>
             <ListItem className={classes.inlineBlock}>
               <a
-                href="/"
+                href="#"
                 className={classes.block}
               >
                 Licenses

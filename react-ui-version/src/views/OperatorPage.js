@@ -54,7 +54,7 @@ export default function OperatorPage(props) {
       <Parallax
         small
         filter
-        image={require("assets/img/profile-bg.jpg").default}
+        image={require("assets/img/bg_1.jpg").default}
       />
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div>
@@ -67,7 +67,7 @@ export default function OperatorPage(props) {
                 </div>
                 <div className={classes.name}>
                   <h3 className={classes.title}>Xiangxu Lin</h3>
-                  <h6>CS-Bot-1</h6>
+                  <h6>CS Department: ATR Lab Bot</h6>
                 </div>
               </div>
             </GridItem>
@@ -86,17 +86,20 @@ export default function OperatorPage(props) {
               <GridContainer justify="center">
                 <GridItem xs={12} sm={12} md={9}>
                   <div>
-                    <h5>
-                      Please use left button to manual control the robot.➡️
+                    {/* <h5> */}
+                    
+                      Please use left button to <b>manual control</b> the robot.➡️
                       <br />
-                      and click on map below for autonomous navigation. ⬇️
-                    </h5>
+                      and click on map below for <b>autonomous navigation</b>. ⬇️
+                      <br /><br />
+                      
+                    {/* </h5> */}
                   </div>
                 </GridItem>
                 <GridItem xs={12} sm={4} md={3}>
                   <Teleoperation />
                 </GridItem>
-
+              
                 <GridItem xs={12} sm={12} md={12}>
                   <Map />
                 </GridItem>
